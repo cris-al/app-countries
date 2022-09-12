@@ -1,0 +1,33 @@
+.containerSB{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerSB button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 46, 38);
+    color: #eee;
+    height: 27px;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+    width: 70px;
+    font-size: 16px;
+}
+.containerSB button:hover{
+    box-shadow: 0 0 15px #eee;
+}
+.containerSB input{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(238, 238, 238, 0.681);
+    height: 25px;
+    width: 200px;
+    padding: 0 8px;
+    font-size: 16px;
+}
+.containerSB input::placeholder{
+    color: black;
+}

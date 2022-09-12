@@ -1,0 +1,25 @@
+.countries{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(27, 22, 22, 0.913);;
+    margin: 5px;
+    padding: 0 5px;
+    color: rgb(203, 200, 200);
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row button{
+    background-color: rgb(36, 46, 38);
+    color: #eee;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.row button:hover{
+    box-shadow: 0 0 5px #eee;
+}

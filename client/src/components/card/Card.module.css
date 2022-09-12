@@ -1,0 +1,26 @@
+.containerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 5px;
+    background-color: rgba(36, 46, 38, 0.533);
+    background-image:  linear-gradient(to right, #234746d5, rgba(36, 46, 38, 0.834) , #234746 );
+    box-shadow: 0 0 30px black;
+    color: #eee;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+}
+.card img{
+    height: 180px;
+    width: 340px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px black;
+}
+.card:hover{
+    box-shadow: 0 0 25px #fff;
+}

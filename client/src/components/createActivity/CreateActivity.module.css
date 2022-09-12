@@ -1,0 +1,148 @@
+.containerCA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerCA h1{
+    text-shadow: 5px 5px 15px black;
+}
+.form{
+    width: 380px;
+    height: 350px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: rgba(27, 22, 22, 0.913);
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(203, 200, 200);
+}
+.divName{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 10px 0px;
+}
+.divName input{
+    padding-left: 7px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.681);
+    background: transparent;
+    width: 191px;
+    height: 23px;
+    outline: none;
+    color: rgba(238, 238, 238, 0.681);
+}
+.divName input:focus{
+    border-bottom: 1px solid rgb(0, 72, 255);
+}
+.divDifficulty{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 10px 0px;
+}
+.divDifficulty select{
+    padding-left: 3px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.681);
+    background: transparent;
+    width: 200px;
+    height: 23px;
+    outline: none;
+    cursor: pointer;
+    color: rgba(238, 238, 238, 0.681);
+}
+.divDifficulty select:focus{
+    border-bottom: 1px solid rgb(0, 72, 255);
+}
+.divDifficulty select option{
+    color:rgb(36, 46, 38);
+    background-color: rgba(238, 238, 238, 0.681);
+}
+.divDuration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 10px 0px;
+}
+.divDuration input{
+    padding-left: 7px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.681);
+    background: transparent;
+    width: 191px;
+    height: 23px;
+    outline: none;
+    color: rgba(238, 238, 238, 0.681);
+}
+.divDuration input:focus{
+    border-bottom: 1px solid rgb(0, 72, 255);
+}
+.divSeason{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 10px 0px;
+}
+.divSeason select{
+    padding-left: 3px;
+    width: 200px;
+    height: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.681);
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    color: rgba(238, 238, 238, 0.681);
+}
+.divSeason select:focus{
+    border-bottom: 1px solid rgb(0, 72, 255);
+}
+.divSeason select option{
+    color:rgb(36, 46, 38);
+    background-color: rgba(238, 238, 238, 0.681);
+}
+.divCountries{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 13px 10px 0px;
+}
+.divCountries select{
+    padding-left: 3px;
+    width: 200px;
+    height: 23px;
+    border: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.681);
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    color: rgba(238, 238, 238, 0.681);
+}
+.divCountries select:focus{
+    border-bottom: 1px solid rgb(0, 72, 255);
+}
+.divCountries select option{
+    color:rgb(36, 46, 38);
+    background-color: rgba(238, 238, 238, 0.681);
+}
+.form button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 46, 38);
+    color: #eee;
+    height: 30px;
+    width: 75px;
+    padding: 5px;
+    margin-top: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 15px black;
+}
+.form button:hover{
+    box-shadow: 0 0 10px #eee;
+}
+small{
+    color: red;
+    display: flex;
+    margin-left: 170px;
+}

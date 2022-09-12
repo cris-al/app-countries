@@ -1,0 +1,24 @@
+.containerLP{
+    margin: 130px;
+}
+.containerLP h1{
+    color: antiquewhite;
+    text-shadow: 2px 2px 8px black;
+}
+.containerLP button{
+    margin-top: 50px;
+    color: #fff;
+    height: 40px;
+    width: 70px;
+    /* background-color: rgb(248, 149, 137); */
+    background-image:  linear-gradient(to right, #fc0000 , #ff9d00 );
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px black;
+}
+.containerLP button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px white;
+}
+/*(to right, #957c48 , #ff9e02 );*/

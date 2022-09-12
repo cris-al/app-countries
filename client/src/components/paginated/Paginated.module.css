@@ -1,0 +1,13 @@
+.containerPag button{
+    border: none;
+    border-radius: 5px;
+    margin: 10px 1px;
+    background-color: rgb(36, 46, 38);
+    color: #eee;
+    font-size: 14px;
+    cursor: pointer;
+}
+.containerPag button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px black;
+}

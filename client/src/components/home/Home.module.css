@@ -1,0 +1,37 @@
+.containerHome{
+    margin-top: 0;
+}
+.containerHome h1{
+    text-shadow: 5px 5px 15px black;
+}
+.containerHome select{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(212, 210, 210);
+    margin: 5px 2px;
+    padding-left: 2px;
+    cursor: pointer;
+    outline: none;
+    opacity: 0.8;
+    font-size: 16px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btnRC{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(36, 46, 38);
+    color: #eee;
+    height: 27px;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+}
+.btnRC:hover{
+    box-shadow: 0 0 15px #eee;
+}
